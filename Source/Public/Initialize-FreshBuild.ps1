@@ -28,5 +28,5 @@ function Initialize-FreshBuild {
     if (-not $json) {
         $json = "[]";
     }
-    $json | Out-File -Path $jsonFile
+    $json | Out-File -FilePath $jsonFile
 }
